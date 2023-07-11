@@ -6,32 +6,36 @@
 }
 
 /*header section style*/
-header{
+header {
     display: flex;
     max-width: 1900px;
     height: 800px;
     background: #E554731A;
 }
-.header-title{
+
+.header-title {
     width: 45%;
     height: 500px;
     padding-top: 180px;
     padding-left: 8%;
 }
-.header-title h1{
+
+.header-title h1 {
     color: #272727;
     font-size: 58px;
     font-weight: 800;
     line-height: normal;
 }
-.header-title p{
+
+.header-title p {
     color: #27272799;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin-top: 40px;
 }
-.header-title button{
+
+.btn {
     color: #fff;
     font-size: 20px;
     font-weight: 700;
@@ -41,78 +45,90 @@ header{
     border-radius: 8px;
     margin-top: 20px;
 }
-.banner-pictuer{
+
+.banner-pictuer {
     width: 40%;
     height: 750px;
     padding-top: 50px;
     padding-left: 3%;
 }
-.banner-pictuer img{
+
+.banner-pictuer img {
     width: 100%;
     height: 100%;
 }
 
 /*main section style*/
-main{
+main {
     width: 100%;
     height: 3000px;
     margin-top: 150px;
 }
+
 /* Fist section style*/
-.Featured{
+.Featured {
     width: 100%;
     height: 600px;
 }
-.Featured-head{
+
+.Featured-head {
     width: 48%;
     height: 150px;
     margin: auto;
 }
-.Featured-head h2{
+
+.Featured-head h2 {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     text-align: center;
 }
-.Featured-head p{
+
+.Featured-head p {
     color: #27272799;
     font-size: 17px;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
 }
-.Featured-Flower{
+
+.Featured-Flower {
     width: 90%;
     height: 400px;
     display: flex;
     justify-content: space-between;
     margin: auto;
 }
-.box-1{
+
+.box-1 {
     width: 32%;
     height: 400px;
     background: #f2dee7;
     border-radius: 50% 50% 0 0;
 }
-.box-2{
+
+.box-2 {
     width: 32%;
     height: 400px;
     background: #0597A026;
     border-radius: 50% 50% 0 0;
 }
-.box-3{
+
+.box-3 {
     width: 32%;
     height: 400px;
     background: #477D1126;
     border-radius: 50% 50% 0 0;
 }
-.img{
+
+.img {
     width: 70%;
     height: 80%;
-   padding-top: 22%;
-   padding-left: 15%;
+    padding-top: 22%;
+    padding-left: 15%;
 }
-.tree{
+
+.tree {
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
@@ -122,46 +138,190 @@ main{
 }
 
 /*sceonde section style*/
-.best-sell{
+.best-sell {
     width: 100%;
     height: 1000px;
     margin-top: 80px;
 }
-.best-sell-title{
+
+.best-sell-title {
     width: 48%;
     height: 150px;
     margin: auto;
 }
-.best-sell-title h2{
+
+.best-sell-title h2 {
     font-size: 40px;
     font-weight: 800;
     text-align: center;
 }
-.best-sell-title p{
+
+.best-sell-title p {
     color: #27272799;
     font-size: 17px;
     font-weight: 400;
     line-height: 30px;
     text-align: center
 }
-.top-list{
+
+.top-list {
     width: 90%;
     height: 400px;
     margin: auto;
     justify-content: space-between;
 }
-.circel{
+
+.circel {
     width: 30%;
     height: 400px;
-    border-radius: 50% ;
+    border-radius: 50%;
     float: left;
     background: #f2dee7;
     margin: 1%;
-   
+
 }
-.fresh{
+
+.fresh {
     width: 80%;
     height: 80%;
     border-radius: 50%;
     padding: 10%;
+}
+
+/*support section style*/
+.support {
+    width: 90%;
+    height: 250px;
+    display: flex;
+    background: #2727270D;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 32%;
+    height: 150px;
+    margin-left: 40px;
+}
+
+.icone {
+    width: 90px;
+    height: 90px;
+    padding-left: 120px;
+}
+
+.box p {
+    color: #272727CC;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*deal section style*/
+.deal {
+    width: 100%;
+    height: 600px;
+    background: #E554730D;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.offer {
+    max-width: 595px;
+    margin-left: 150px;
+}
+
+.offer h2 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.color {
+    color: #E55473;
+    font-size: 35px;
+    font-weight: 800;
+
+}
+
+.offer p {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.rose {
+    width: 318px;
+    height: 420px;
+    margin-left: 80px;
+}
+
+.rose img {
+    width: 100%;
+    height: 100%;
+}
+
+/*social section style*/
+.social {
+    width: 100%;
+    height: 530px;
+    margin-top: 100px;
+}
+
+.instagram {
+    max-width: 650px;
+    height: 150px;
+    margin: auto;
+}
+
+.instagram h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.instagram p {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.media {
+    width: 90%;
+    height: 420px;
+    display: flex;
+    
+}
+.images{
+    width: 342px;
+    height: 396px;
+    padding: 8px;
+}
+.images img{
+    width: 300px;
+    height: 350px;
 }
